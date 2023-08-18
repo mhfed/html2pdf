@@ -1,91 +1,2475 @@
-.invoice-box {
-    max-width: 800px;
-    margin: auto;
-    padding: 30px;
-    border: 1px solid #eee;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-    font-size: 16px;
-    line-height: 24px;
-    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-    color: #555;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.transaction-statement,
+.transaction-statement * {
+  box-sizing: border-box;
+}
+.transaction-statement {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 595px;
+  height: 842px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 16px;
+  width: 595px;
+  height: 84px;
+  position: absolute;
+  left: 0px;
+  top: -12px;
+}
+.pu-logo-hor-full-colour-rgb-1 {
+  width: 178px;
+  height: 47px;
+  position: absolute;
+  left: 401px;
+  top: 12px;
+}
+.transaction-statement2 {
+  color: #000000;
+  text-align: left;
+  font: 400 14px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 17px;
+  top: 20px;
+}
+.account-no-07012345 {
+  color: #000000;
+  text-align: left;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 72px;
+}
+.statement-date-22-08-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 165px;
+  top: 72px;
+}
+.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 407px;
+  top: 72px;
+}
+._10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 60px;
+}
+.transaction-statement3 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 109px;
+  width: 112px;
+  height: 16px;
+}
+.rectangle-5 {
+  border-radius: 0px;
+  position: absolute;
+  left: 29px;
+  top: 132px;
+  overflow: visible;
+}
+._5-85626 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 548px;
+}
+._0-00000 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 588px;
+}
+._0-82785 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 632px;
+}
+.corporate-action-rights-issue {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 581px;
+}
+.advanced-micro-devices-inc-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 617px;
+  width: 80px;
+  height: 30px;
+}
+.amd-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 203px;
+  top: 632px;
+}
+.j-36-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 206px;
+  top: 588px;
+}
+._10-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 508px;
+}
+._15-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 548px;
+}
+._18-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 588px;
+}
+._25-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 632px;
+}
+.dividend-received {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 501px;
+}
+.tesla-inc-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 541px;
+}
+.tsla-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 202px;
+  top: 548px;
+}
+.buy {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 548px;
+}
+.sgd {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 508px;
+}
+._0-000002 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 508px;
+}
+.usd {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 548px;
+}
+.sgd2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 588px;
+}
+.usd2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 632px;
+}
+. {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 588px;
+}
+.buy2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 632px;
+}
+.2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 508px;
+}
+.3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 508px;
+}
+.4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 508px;
+}
+.s-68-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 205px;
+  top: 508px;
+}
+.5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 588px;
+}
+._9-90 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 446px;
+  top: 548px;
+}
+._4-80 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 445px;
+  top: 632px;
+}
+.6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 588px;
+}
+._890-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 548px;
+}
+._95-95 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 632px;
+}
+._1-63 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 526px;
+  top: 508px;
+}
+._5-221-74 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 506px;
+  top: 548px;
+}
+._6-38 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 525px;
+  top: 588px;
+}
+._84-15 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 521px;
+  top: 632px;
+}
+._5-856262 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 214px;
+}
+._0-000003 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 254px;
+}
+._0-827852 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 298px;
+}
+.corporate-action-rights-issue2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 247px;
+}
+.advanced-micro-devices-inc-fractional2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 283px;
+  width: 80px;
+  height: 30px;
+}
+.amd-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 203px;
+  top: 298px;
+}
+.j-36-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 206px;
+  top: 254px;
+}
+.date {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 139px;
+}
+.details {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 139px;
+}
+.symbol {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 208px;
+  top: 139px;
+}
+.side {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 258px;
+  top: 139px;
+}
+.currency {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 289px;
+  top: 139px;
+}
+.units {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 346px;
+  top: 139px;
+}
+.price {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 389px;
+  top: 139px;
+}
+.commission-fees {
+  color: #000000;
+  text-align: center;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 425px;
+  top: 132px;
+}
+.total-amount {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 494px;
+  top: 139px;
+}
+._10-jun-20222 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 174px;
+}
+._15-jun-20222 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 214px;
+}
+._18-jun-20222 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 254px;
+}
+._25-jun-20222 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 298px;
+}
+.dividend-received2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 167px;
+}
+.tesla-inc-fractional2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 207px;
+}
+.tsla-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 202px;
+  top: 214px;
+}
+.buy3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 214px;
+}
+.sgd3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 174px;
+}
+._0-000004 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 174px;
+}
+.usd3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 214px;
+}
+.sgd4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 254px;
+}
+.usd4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 298px;
+}
+.7 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 254px;
+}
+.buy4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 298px;
+}
+.8 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 174px;
+}
+.9 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 174px;
+}
+.10 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 174px;
+}
+.s-68-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 205px;
+  top: 174px;
+}
+.11 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 254px;
+}
+._9-902 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 446px;
+  top: 214px;
+}
+._4-802 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 445px;
+  top: 298px;
+}
+.12 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 254px;
+}
+._890-002 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 214px;
+}
+._95-952 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 298px;
+}
+._1-632 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 526px;
+  top: 174px;
+}
+._5-221-742 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 506px;
+  top: 214px;
+}
+._6-382 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 525px;
+  top: 254px;
+}
+._84-152 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 521px;
+  top: 298px;
+}
+._5-856263 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 381px;
+}
+._0-000005 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 421px;
+}
+._0-827853 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 465px;
+}
+.corporate-action-rights-issue3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 414px;
+}
+.advanced-micro-devices-inc-fractional3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 450px;
+  width: 80px;
+  height: 30px;
+}
+.amd-ft3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 203px;
+  top: 465px;
+}
+.j-36-ft3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 206px;
+  top: 421px;
+}
+._10-jun-20223 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 341px;
+}
+._15-jun-20223 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 381px;
+}
+._18-jun-20223 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 421px;
+}
+._25-jun-20223 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 38px;
+  top: 465px;
+}
+.dividend-received3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 334px;
+}
+.tesla-inc-fractional3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 113px;
+  top: 374px;
+}
+.tsla-ft3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 202px;
+  top: 381px;
+}
+.buy5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 381px;
+}
+.sgd5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 341px;
+}
+._0-000006 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 341px;
+  top: 341px;
+}
+.usd5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 381px;
+}
+.sgd6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 421px;
+}
+.usd6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 299px;
+  top: 465px;
+}
+.13 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 421px;
+}
+.buy6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 259px;
+  top: 465px;
+}
+.14 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 266px;
+  top: 341px;
+}
+.15 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 341px;
+}
+.16 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 341px;
+}
+.s-68-ft3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 205px;
+  top: 341px;
+}
+.17 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 421px;
+}
+._9-903 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 446px;
+  top: 381px;
+}
+._4-803 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 445px;
+  top: 465px;
+}
+.18 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 397px;
+  top: 421px;
+}
+._890-003 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 381px;
+}
+._95-953 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 392px;
+  top: 465px;
+}
+._1-633 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 526px;
+  top: 341px;
+}
+._5-221-743 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 506px;
+  top: 381px;
+}
+._6-383 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 525px;
+  top: 421px;
+}
+._84-153 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 521px;
+  top: 465px;
+}
+.trade-confirmation,
+.trade-confirmation * {
+  box-sizing: border-box;
+}
+.trade-confirmation {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 595px;
+  height: 842px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 16px;
+  width: 595px;
+  height: 84px;
+  position: absolute;
+  left: 0px;
+  top: -12px;
+}
+.trade-confirmation2 {
+  color: #000000;
+  text-align: left;
+  font: 400 14px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 17px;
+  top: 20px;
+}
+.account-no-07012345 {
+  color: #000000;
+  text-align: left;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 29px;
+  top: 72px;
+}
+.statement-date-22-08-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 159px;
+  top: 72px;
+}
+.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 407px;
+  top: 72px;
+}
+._10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 60px;
+}
+.rectangle-6 {
+  border-radius: 0px;
+  position: absolute;
+  left: 29px;
+  top: 139px;
+  overflow: visible;
+}
+._19-jun-2022 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 506px;
+  top: 279px;
+}
+._95-95 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 201px;
+  top: 375px;
+}
+._9-94 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 204px;
+  top: 279px;
+}
+._0-82785 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 139px;
+  top: 375px;
+}
+._3-18459 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 279px;
+}
+.advanced-micro-devices-fractional-amd-ft {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 33px;
+  top: 375px;
+}
+.avg-price {
+  color: #000000;
+  text-align: left;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 191px;
+  top: 155px;
+}
+.units {
+  color: #000000;
+  text-align: left;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 143px;
+  top: 155px;
+}
+.side {
+  color: #000000;
+  text-align: left;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 99px;
+  top: 155px;
+}
+.description-symbol {
+  color: #000000;
+  text-align: left;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 41px;
+  top: 151px;
+}
+.line-12 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 538px;
+  height: 0px;
+  position: absolute;
+  left: 29px;
+  top: 180px;
+}
+.trade-details {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 120px;
+  width: 130px;
+  height: 14px;
+}
+.commission-fees {
+  color: #000000;
+  text-align: right;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 260px;
+  top: 155px;
+}
+.net-amount {
+  color: #000000;
+  text-align: center;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 380px;
+  top: 151px;
+}
+.gross-amount-commission-clearing-fees-misc-handling-fees-sgx-trading-fees-sgx-si-fee-platform-fee-gst-8-ffp {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 248px;
+  top: 186px;
+}
+.usd-5-221-74-usd-9-90-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 317px;
+  top: 186px;
+}
+.usd-84-15-usd-9-90-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 318px;
+  top: 375px;
+}
+.usd-38-45-usd-9-90-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00-usd-0-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 316px;
+  top: 279px;
+}
+.gross-amount-commission-clearing-fees-misc-handling-fees-sgx-trading-fees-sgx-si-fee-platform-fee-gst-8-ffp2 {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 247px;
+  top: 279px;
+}
+.gross-amount-commission-clearing-fees-misc-handling-fees-sgx-trading-fees-sgx-si-fee-platform-fee-gst-8-ffp3 {
+  color: #000000;
+  text-align: left;
+  font: 400 6px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 247px;
+  top: 375px;
+}
+.trade-date {
+  color: #000000;
+  text-align: center;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 446px;
+  top: 155px;
+}
+.settlement-date {
+  color: #000000;
+  text-align: center;
+  font: 700 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 155px;
+}
+.tesla-inc-fractional-tsla-ft {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 187px;
+}
+.singapore-exchange-limited-fractional-s-68-ft {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 279px;
+}
+.buy {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 98px;
+  top: 187px;
+}
+.buy2 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 98px;
+  top: 279px;
+}
+.buy3 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 99px;
+  top: 375px;
+}
+._5-85626 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 138px;
+  top: 187px;
+}
+.trade-ref-1234567890 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 257px;
+}
+.trade-ref-12345678902 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 446px;
+}
+.trade-ref-12345678903 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 42px;
+  top: 350px;
+}
+._890-00 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 196px;
+  top: 187px;
+}
+.usd-5-221-74 {
+  color: #000000;
+  text-align: left;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 373px;
+  top: 187px;
+}
+._15-jun-2022 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 444px;
+  top: 187px;
+}
+._17-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 507px;
+  top: 187px;
+}
+.usd-38-45 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 381px;
+  top: 279px;
+}
+._18-jun-2022 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 443px;
+  top: 279px;
+}
+.usd-84-15 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 375px;
+}
+._25-jun-2022 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 443px;
+  top: 375px;
+}
+._27-jun-2022 {
+  color: #000000;
+  text-align: center;
+  font: 400 7px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 507px;
+  top: 375px;
+}
+.pu-logo-hor-full-colour-rgb-2 {
+  width: 178px;
+  height: 47px;
+  position: absolute;
+  left: 404px;
+  top: 10px;
+}
+.account-statement,
+.account-statement * {
+  box-sizing: border-box;
+}
+.account-statement {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 595px;
+  height: 842px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 16px;
+  width: 595px;
+  height: 84px;
+  position: absolute;
+  left: 0px;
+  top: -12px;
+}
+.pu-logo-hor-full-colour-rgb-1 {
+  width: 178px;
+  height: 47px;
+  position: absolute;
+  left: 401px;
+  top: 12px;
+}
+.account-statement2 {
+  color: #000000;
+  text-align: left;
+  font: 400 14px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 16px;
+  top: 14px;
+}
+.june-2022-01-jun-2022-30-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 16px;
+  top: 30px;
+}
+.account-no-07012345 {
+  color: #000000;
+  text-align: left;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 28px;
+  top: 72px;
+}
+.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 407px;
+  top: 72px;
+}
+.rectangle-2 {
+  border-radius: 0px;
+  position: absolute;
+  left: 28px;
+  top: 125px;
+  overflow: visible;
+}
+.cash-available {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 163px;
+  width: 78px;
+}
+.sgd-1-040 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 208px;
+  top: 164px;
+}
+.sgd-5-358 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 208px;
+  top: 145px;
+}
+.rectangle-3 {
+  border-radius: 0px;
+  position: absolute;
+  left: 28px;
+  top: 245px;
+  overflow: visible;
+}
+._5149-42 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 513px;
+  top: 282px;
+}
+._1627-47 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 515px;
+  top: 312px;
+}
+._608-38 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 518px;
+  top: 342px;
+}
+._168-70 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 520px;
+  top: 372px;
+}
+._1-93485 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 382px;
+  top: 373px;
+}
+.nvda-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 311px;
+  top: 342px;
+}
+.gme-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 311px;
+  top: 312px;
+}
+.market-value {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 500px;
+  top: 251px;
+}
+.market-value2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 144px;
+  width: 74px;
+}
+.usd-1-937-21 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 127px;
+  top: 164px;
+  width: 69px;
+}
+.usd-10-000 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 127px;
+  top: 144px;
+  width: 69px;
+}
+.your-account-at-a-glance {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 108px;
+  width: 130px;
+  height: 14px;
+}
+.holdings-summary {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 211px;
+  width: 96px;
+  height: 14px;
+}
+.security-name {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 251px;
+  width: 72px;
+  height: 14px;
+}
+.symbol {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 318px;
+  top: 251px;
+  width: 37px;
+  height: 16px;
+}
+.units {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 251px;
+}
+.currency {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 441px;
+  top: 251px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 538px;
+  height: 0px;
+  position: absolute;
+  left: 28px;
+  top: 275px;
+}
+.rectangle-5 {
+  border-radius: 0px;
+  position: absolute;
+  left: 28px;
+  top: 601px;
+  overflow: visible;
+}
+._5-85626 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 340px;
+  top: 683px;
+}
+._0-00000 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 340px;
+  top: 723px;
+}
+._0-82785 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 340px;
+  top: 767px;
+}
+.corporate-action-rights-issue {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 716px;
+}
+.line-8 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 538px;
+  height: 0px;
+  position: absolute;
+  left: 28px;
+  top: 631px;
+}
+.rectangle-4 {
+  border-radius: 0px;
+  position: absolute;
+  left: 28px;
+  top: 439px;
+  overflow: visible;
+}
+._7-92892 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 537px;
+}
+._20-49159 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 506px;
+}
+.z-74-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 314px;
+  top: 477px;
+}
+.market-value3 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 499px;
+  top: 445px;
+}
+.security-name2 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 445px;
+  width: 72px;
+  height: 14px;
+}
+.symbol2 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 318px;
+  top: 445px;
+  width: 37px;
+  height: 16px;
+}
+.units2 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 385px;
+  top: 445px;
+}
+.currency2 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 441px;
+  top: 445px;
+}
+.line-5 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 538px;
+  height: 0px;
+  position: absolute;
+  left: 28px;
+  top: 469px;
+}
+.tesla-inc-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 282px;
+}
+.game-stop-corp-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 312px;
+}
+.nvidia-corporation-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 342px;
+}
+.advanced-micro-devices-inc-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 372px;
+}
+.advanced-micro-devices-inc-fractional2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 752px;
+  width: 80px;
+  height: 30px;
+}
+.tsla-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 311px;
+  top: 282px;
+}
+.amd-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 311px;
+  top: 373px;
+}
+.amd-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 202px;
+  top: 767px;
+}
+.us-market {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 228px;
+}
+.sg-market {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 421px;
+}
+.singapore-telecommunications-limited-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 477px;
+}
+.singapore-exchange-limited-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 506px;
+}
+.s-68-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 313px;
+  top: 505px;
+}
+.jardine-matheson-holdings-limited-fractional {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 49px;
+  top: 537px;
+}
+.j-36-ft {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 312px;
+  top: 537px;
+}
+.j-36-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 205px;
+  top: 723px;
+}
+.transactions {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 582px;
+  width: 68px;
+  height: 16px;
+}
+.date {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 608px;
+}
+.details {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 608px;
+}
+.symbol3 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 207px;
+  top: 608px;
+}
+.side {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 257px;
+  top: 608px;
+}
+.currency3 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 288px;
+  top: 608px;
+}
+.units3 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 345px;
+  top: 608px;
+}
+.price {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 388px;
+  top: 608px;
+}
+.commission-fees {
+  color: #000000;
+  text-align: center;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 424px;
+  top: 601px;
+}
+.total-amount {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 493px;
+  top: 608px;
+}
+._10-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 643px;
+}
+._15-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 683px;
+}
+._18-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 723px;
+}
+._25-jun-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 37px;
+  top: 767px;
+}
+.dividend-received {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 636px;
+}
+.tesla-inc-fractional2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 112px;
+  top: 676px;
+}
+.tsla-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 201px;
+  top: 683px;
+}
+.buy {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 258px;
+  top: 683px;
+}
+.sgd {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 643px;
+}
+._0-000002 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 340px;
+  top: 643px;
+}
+.usd {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 683px;
+}
+.sgd2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 723px;
+}
+.usd2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 767px;
+}
+. {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 723px;
+}
+.buy2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 258px;
+  top: 767px;
+}
+.2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 265px;
+  top: 643px;
+}
+.3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 452px;
+  top: 643px;
+}
+.4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 396px;
+  top: 643px;
+}
+.s-68-ft2 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 204px;
+  top: 643px;
+}
+.eur-10-472-10 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 277px;
+  top: 164px;
+}
+.eur-49-284-94 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 277px;
+  top: 145px;
+}
+.hkd-10-472-10 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 368px;
+  top: 164px;
+}
+.hkd-49-284-94 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 368px;
+  top: 145px;
+}
+.aud-10-472-10 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 460px;
+  top: 163px;
+}
+.aud-49-284-94 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 460px;
+  top: 144px;
+}
+._10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+  color: #000000;
+  text-align: right;
+  font: 400 8px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 297px;
+  top: 60px;
+}
+.5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 452px;
+  top: 723px;
+}
+._9-90 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 445px;
+  top: 683px;
+}
+._4-80 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 444px;
+  top: 767px;
+}
+.6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 396px;
+  top: 723px;
+}
+._890-00 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 384px;
+  top: 683px;
+}
+._95-95 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 391px;
+  top: 767px;
+}
+._6-83236 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 381px;
+  top: 282px;
+}
+._13-32985 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 376px;
+  top: 312px;
+}
+._3-84335 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 381px;
+  top: 342px;
+}
+.usd3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 282px;
+}
+.usd4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 312px;
+}
+.usd5 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 342px;
+}
+.usd6 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 373px;
+}
+._75-20396 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 375px;
+  top: 477px;
+}
+.sgd3 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 477px;
+}
+.sgd4 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 506px;
+}
+.usd7 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 453px;
+  top: 537px;
+}
+._160-18 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 520px;
+  top: 477px;
+}
+._168-02 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 518px;
+  top: 506px;
+}
+._451-10 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 520px;
+  top: 537px;
+}
+._1-63 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 523px;
+  top: 643px;
+}
+._5-221-74 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 505px;
+  top: 683px;
+}
+._6-38 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 521px;
+  top: 723px;
+}
+._84-15 {
+  color: #000000;
+  text-align: left;
+  font: 400 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 518px;
+  top: 767px;
+}
+.total-usd {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 436px;
+  top: 402px;
+}
+.total-sgd {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 436px;
+  top: 566px;
+}
+._960-73 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 566px;
+}
+._7553-97 {
+  color: #000000;
+  text-align: left;
+  font: 700 10px/150% "Inter", sans-serif;
+  position: absolute;
+  left: 513px;
+  top: 402px;
 }
 
-.invoice-box table {
-    width: 100%;
-    line-height: inherit;
-    text-align: left;
-}
-
-.invoice-box table td {
-    padding: 5px;
-    vertical-align: top;
-}
-
-.invoice-box table tr td:nth-child(2) {
-    text-align: right;
-}
-
-.invoice-box table tr.top table td {
-    padding-bottom: 20px;
-}
-
-.invoice-box table tr.top table td.title {
-    font-size: 45px;
-    line-height: 45px;
-    color: #333;
-}
-
-.invoice-box table tr.information table td {
-    padding-bottom: 40px;
-}
-
-.invoice-box table tr.heading td {
-    background: #eee;
-    border-bottom: 1px solid #ddd;
-    font-weight: bold;
-}
-
-.invoice-box table tr.details td {
-    padding-bottom: 20px;
-}
-
-.invoice-box table tr.item td {
-    border-bottom: 1px solid #eee;
-}
-
-.invoice-box table tr.item.last td {
-    border-bottom: none;
-}
-
-.invoice-box table tr.total td:nth-child(2) {
-    border-top: 2px solid #eee;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 600px) {
-    .invoice-box table tr.top table td {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-
-    .invoice-box table tr.information table td {
-        width: 100%;
-        display: block;
-        text-align: center;
-    }
-}
-
-/** RTL **/
-.invoice-box.rtl {
-    direction: rtl;
-    font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-}
-
-.invoice-box.rtl table {
-    text-align: right;
-}
-
-.invoice-box.rtl table tr td:nth-child(2) {
-    text-align: left;
-}
