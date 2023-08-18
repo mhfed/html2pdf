@@ -20,7 +20,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.rectangle-1 {
+.header {
   background: #d9d9d9;
   border-radius: 16px;
   width: 595px;
@@ -29,7 +29,7 @@ body {
   left: 0px;
   top: -12px;
 }
-.pu-logo-hor-full-colour-rgb-1 {
+.logo {
   width: 178px;
   height: 47px;
   position: absolute;
@@ -44,7 +44,7 @@ body {
   left: 17px;
   top: 20px;
 }
-.account-no-07012345 {
+.account-no {
   color: #000000;
   text-align: left;
   font: 400 8px/150% "Inter", sans-serif;
@@ -52,7 +52,7 @@ body {
   left: 29px;
   top: 72px;
 }
-.statement-date-22-08-2022 {
+.statement-date {
   color: #000000;
   text-align: left;
   font: 400 8px/150% "Inter", sans-serif;
@@ -60,7 +60,7 @@ body {
   left: 165px;
   top: 72px;
 }
-.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
+.address {
   color: #000000;
   text-align: right;
   font: 400 8px/150% "Inter", sans-serif;
@@ -255,14 +255,7 @@ body {
   left: 299px;
   top: 632px;
 }
-. {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 588px;
-}
+
 .buy2 {
   color: #000000;
   text-align: left;
@@ -271,30 +264,7 @@ body {
   left: 259px;
   top: 632px;
 }
-.2 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 508px;
-}
-.3 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 508px;
-}
-.4 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 508px;
-}
+
 .s-68-ft {
   color: #000000;
   text-align: left;
@@ -302,14 +272,6 @@ body {
   position: absolute;
   left: 205px;
   top: 508px;
-}
-.5 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 588px;
 }
 ._9-90 {
   color: #000000;
@@ -327,14 +289,7 @@ body {
   left: 445px;
   top: 632px;
 }
-.6 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 588px;
-}
+
 ._890-00 {
   color: #000000;
   text-align: left;
@@ -617,14 +572,7 @@ body {
   left: 299px;
   top: 298px;
 }
-.7 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 254px;
-}
+
 .buy4 {
   color: #000000;
   text-align: left;
@@ -633,30 +581,7 @@ body {
   left: 259px;
   top: 298px;
 }
-.8 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 174px;
-}
-.9 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 174px;
-}
-.10 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 174px;
-}
+
 .s-68-ft2 {
   color: #000000;
   text-align: left;
@@ -665,14 +590,7 @@ body {
   left: 205px;
   top: 174px;
 }
-.11 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 254px;
-}
+
 ._9-902 {
   color: #000000;
   text-align: left;
@@ -689,14 +607,7 @@ body {
   left: 445px;
   top: 298px;
 }
-.12 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 254px;
-}
+
 ._890-002 {
   color: #000000;
   text-align: left;
@@ -907,14 +818,7 @@ body {
   left: 299px;
   top: 465px;
 }
-.13 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 421px;
-}
+
 .buy6 {
   color: #000000;
   text-align: left;
@@ -922,30 +826,6 @@ body {
   position: absolute;
   left: 259px;
   top: 465px;
-}
-.14 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 266px;
-  top: 341px;
-}
-.15 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 341px;
-}
-.16 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 341px;
 }
 .s-68-ft3 {
   color: #000000;
@@ -955,14 +835,7 @@ body {
   left: 205px;
   top: 341px;
 }
-.17 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 453px;
-  top: 421px;
-}
+
 ._9-903 {
   color: #000000;
   text-align: left;
@@ -979,14 +852,7 @@ body {
   left: 445px;
   top: 465px;
 }
-.18 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 397px;
-  top: 421px;
-}
+
 ._890-003 {
   color: #000000;
   text-align: left;
@@ -1066,38 +932,8 @@ body {
   left: 17px;
   top: 20px;
 }
-.account-no-07012345 {
-  color: #000000;
-  text-align: left;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 29px;
-  top: 72px;
-}
-.statement-date-22-08-2022 {
-  color: #000000;
-  text-align: left;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 159px;
-  top: 72px;
-}
-.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
-  color: #000000;
-  text-align: right;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 407px;
-  top: 72px;
-}
-._10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
-  color: #000000;
-  text-align: right;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 298px;
-  top: 60px;
-}
+
+
 .rectangle-6 {
   border-radius: 0px;
   position: absolute;
@@ -1429,7 +1265,7 @@ body {
   left: 507px;
   top: 375px;
 }
-.pu-logo-hor-full-colour-rgb-2 {
+.logo {
   width: 178px;
   height: 47px;
   position: absolute;
@@ -1459,14 +1295,14 @@ body {
   left: 0px;
   top: -12px;
 }
-.pu-logo-hor-full-colour-rgb-1 {
+.logo {
   width: 178px;
   height: 47px;
   position: absolute;
   left: 401px;
   top: 12px;
 }
-.account-statement2 {
+.account-statement-title {
   color: #000000;
   text-align: left;
   font: 400 14px/150% "Inter", sans-serif;
@@ -1474,7 +1310,7 @@ body {
   left: 16px;
   top: 14px;
 }
-.june-2022-01-jun-2022-30-jun-2022 {
+.from-to-date {
   color: #000000;
   text-align: left;
   font: 400 10px/150% "Inter", sans-serif;
@@ -1482,22 +1318,7 @@ body {
   left: 16px;
   top: 30px;
 }
-.account-no-07012345 {
-  color: #000000;
-  text-align: left;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 28px;
-  top: 72px;
-}
-.address-10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
-  color: #000000;
-  text-align: right;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 407px;
-  top: 72px;
-}
+
 .rectangle-2 {
   border-radius: 0px;
   position: absolute;
@@ -2144,14 +1965,7 @@ body {
   left: 298px;
   top: 767px;
 }
-. {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 265px;
-  top: 723px;
-}
+
 .buy2 {
   color: #000000;
   text-align: left;
@@ -2160,30 +1974,7 @@ body {
   left: 258px;
   top: 767px;
 }
-.2 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 265px;
-  top: 643px;
-}
-.3 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 452px;
-  top: 643px;
-}
-.4 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 396px;
-  top: 643px;
-}
+
 .s-68-ft2 {
   color: #000000;
   text-align: left;
@@ -2240,22 +2031,7 @@ body {
   left: 460px;
   top: 144px;
 }
-._10-marina-boulevard-tower-2-09-01-marina-bay-financial-centre-018983 {
-  color: #000000;
-  text-align: right;
-  font: 400 8px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 297px;
-  top: 60px;
-}
-.5 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 452px;
-  top: 723px;
-}
+
 ._9-90 {
   color: #000000;
   text-align: left;
@@ -2272,14 +2048,7 @@ body {
   left: 444px;
   top: 767px;
 }
-.6 {
-  color: #000000;
-  text-align: left;
-  font: 400 10px/150% "Inter", sans-serif;
-  position: absolute;
-  left: 396px;
-  top: 723px;
-}
+
 ._890-00 {
   color: #000000;
   text-align: left;
